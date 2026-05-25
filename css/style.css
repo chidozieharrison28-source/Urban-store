@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 h2{
@@ -22,29 +22,75 @@ p{
 h3{
     font-size: 1.5rem;
     color: var(--colorh1);
+    background-color: #f4b8c8;
+    padding: 5px;
 }
 
 
 .card{
     display: flex;
     flex-direction: column;
-    margin: 4rem;
-    padding:4rem ;
+    margin: 1rem;
+    padding: 1rem;
     gap: 2rem;
     align-items: center;
     justify-content: center;
+
 }
 
 .card1{
     display: grid;
     gap: 1.5rem;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(2,1fr);
     gap: 2rem;
+    
 }
 
 p{
     padding-top: 1rem;
 }
+
+.card2{
+    border: 1px solid black;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    background-color:white;
+    border-radius: 10px;
+    
+    
+}
+
+.card3{
+    border: 1px solid black;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    background-color:white;
+    border-radius: 10px
+}
+
+.card4{
+    border: 1px solid black;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    background-color:white;
+    border-radius: 10px
+}
+
+.card5{
+    border: 1px solid black;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    background-color:white;
+    border-radius: 10px
+}
+
+
+
+
 
 
 @import "color.css";
