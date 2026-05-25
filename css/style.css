@@ -4,6 +4,26 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--primary-color);
+}
+
+h2{
+    font-size: 2.5rem;
+    color: var(--colorh1);
+}
+
+p{
+    font-size: 1.2rem;
+    color: var(--colorh1);
+}
+
+h3{
+    font-size: 1.5rem;
+    color: var(--colorh1);
+}
+
 
 .card{
     display: flex;
@@ -26,3 +46,39 @@ p{
     padding-top: 1rem;
 }
 
+
+@import "color.css";
+:root {
+    --primary-color: #f4b8c8;
+    --secondary-color: #ffffff;
+    --primary-border-color: #4a4446;
+    --colorh1: black;
+    --card1-color: #ffffff;
+
+    
+}
+
+
+
+
+
+
+@import "typography.css";
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-size: 2.5rem;
+    
+}
+
+p{
+    font-size: 1.2rem;
+    
+}
+
+h3{
+    font-size: 1.5rem;
+    
+}
